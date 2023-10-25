@@ -56,5 +56,3 @@ Thumbs.db
 !.env.example
 !.git-blame-ignore-revs
 !.gitignore
-!.nvmrc
-!.phpcs.xml.dist
