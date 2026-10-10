@@ -18,6 +18,10 @@
 # ignore OS generated files
 ehthumbs.db
 Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
 
 # ignore log files and databases
 *.log
@@ -31,6 +35,10 @@ Thumbs.db
 *.exe
 *.o
 *.so
+
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
 
 # ignore packaged files
 *.7z
@@ -46,6 +54,11 @@ Thumbs.db
 *.der
 *.key
 *.pem
+
+.env.local
+.env.*.local
+.env
+
 
 # --------------------------------------------------------
 # BEGIN Explictly Allowed Files (i.e. do NOT ignore these)
